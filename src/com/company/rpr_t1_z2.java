@@ -1,7 +1,4 @@
-package com.company;
-
-//import org.jetbrains.annotations.Contract;
-//import java.lang.*;
+package com.company
 import java.util.Scanner;
 
 public class rpr_t1_z2 {
@@ -12,7 +9,7 @@ public class rpr_t1_z2 {
         int n = ulaz.nextInt();
         int broj=SumaCifara(n);
         for(int i=1;i<=n;i++){
-            if(DaLiJe(broj,i)== true) print(i);
+            if((i%SumaCifara(i))== 0) print(i);
         }
     }
     public static void print(String text){
@@ -31,11 +28,4 @@ public class rpr_t1_z2 {
         }
         return suma;
     }
-
-    public static boolean DaLiJe(int broj1, int broj2){
-        if( broj1%broj2==0) return true;
-        if( broj2%broj1==0) return true;
-        return false;
-    }
-
 }
