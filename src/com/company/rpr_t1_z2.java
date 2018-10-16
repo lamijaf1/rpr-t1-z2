@@ -35,6 +35,7 @@ public class rpr_t1_z2 {
     public static boolean DaLiJe(int broj1, int broj2){
         if( broj1%broj2==0) return true;
         if( broj2%broj1==0) return true;
-        return false;}
+        return false;
+    }
 
 }
