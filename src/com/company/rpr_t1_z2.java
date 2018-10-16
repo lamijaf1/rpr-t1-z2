@@ -1,4 +1,4 @@
-package com.company
+package com.company;
 import java.util.Scanner;
 
 public class rpr_t1_z2 {
